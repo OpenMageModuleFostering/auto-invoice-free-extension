@@ -30,7 +30,7 @@
 <config>
     <modules>
         <Bss_Autoinvoice>
-            <version>1.0.8</version>
+            <version>1.0.9</version>
         </Bss_Autoinvoice>
     </modules>
     <global>
@@ -38,6 +38,11 @@
             <bss_autoinvoice>
                 <class>Bss_Autoinvoice_Model</class>
             </bss_autoinvoice>
+            <sales>
+            	<rewrite>
+            		<order_payment>Bss_Autoinvoice_Model_Order_Payment</order_payment>
+            	</rewrite>
+            </sales>
         </models>
 		<helpers>
       			<autoinvoice>

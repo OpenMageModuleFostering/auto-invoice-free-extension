@@ -25,9 +25,6 @@
 * @copyright  Copyright (c) 2014-2016 BssCommerce Co. (http://bsscommerce.com)
 * @license    http://bsscommerce.com/Bss-Commerce-License.txt
 */
-?>
- 
-<?php
 class Bss_Autoinvoice_Helper_Data extends Mage_Core_Helper_Abstract {
-	public function data() {}
+	
 }

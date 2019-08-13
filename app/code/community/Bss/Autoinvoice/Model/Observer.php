@@ -1,4 +1,3 @@
-<?php ob_start(); ?>
 <?php
 /**
 * BssCommerce Co.
@@ -26,9 +25,6 @@
 * @copyright  Copyright (c) 2014-2016 BssCommerce Co. (http://bsscommerce.com)
 * @license    http://bsscommerce.com/Bss-Commerce-License.txt
 */
-?>
- 
-<?php
 class Bss_Autoinvoice_Model_Observer {
 	/* @var Magento_Sales_Model_Order_Invoice */
 	public $_invoice;
@@ -106,4 +102,5 @@ class Bss_Autoinvoice_Model_Observer {
 
 	   return $this;
 	}
+	
 }

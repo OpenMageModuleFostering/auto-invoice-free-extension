@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/auto-invoice-free-extension",
+    "name": "OpenMageModuleFostering\/auto-invoice-free-extension",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Auto Invoice Extension was designed to automatically change order status by sending invoice email to customers.",
     "authors": [
-    {
-        "name": "Bss Commerce",
-        "email": "support@bsscommerce.com"
-    }
-],
+        {
+            "name": "Bss Commerce",
+            "email": "support@bsscommerce.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
